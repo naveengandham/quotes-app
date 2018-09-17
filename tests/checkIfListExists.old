@@ -1,0 +1,7 @@
+describe('getQuotesList', function() {
+    var d = document.querySelector('.quotes');
+
+    it('Should exist', function() {
+        expect(d.nodeName).toBe('UL');
+    });
+});
